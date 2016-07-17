@@ -1,0 +1,135 @@
+
+.shortlist{
+  background: linear-gradient( #E6E6E8, #C1C6CC);
+  min-height: 594px;
+  margin: 30px 50px;
+  border-radius: 6px;
+  // minWidth: 356px;
+  min-width: 368px;
+}
+
+.listTitle {
+  background-color: #FC6167;
+  height: 54px;
+  width: 328px;
+  border-radius: 6px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.card {
+  background-color: #FFFFFF;
+  height: 500px;
+  width: 326px;
+  margin: 10px 10px;
+  border-radius: 6px;
+  // boxShadow: 0 0 10px #888888;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+  position: relative;
+  // display: flex;
+  // flexDirection: column;
+  // flexWrap: wrap;
+}
+
+.cover {
+  background-image: url("/img/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+
+.avatar {
+  background-image: url(/img/avatar.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  // boxShadow: 0 0 10px #888888;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
+  margin: -75px auto 0px;
+}
+
+.cardTitle {
+  margin: 0px auto;
+  color: #0F2243;
+  font-size: 40px;
+  height: 42px;
+  text-align: center;
+}
+
+.cardSubtitle {
+  margin: 0px auto;
+  color: #949599;
+  font-size: 16px;
+  text-align: center;
+}
+
+.cardText {
+  margin: 0px 10px;
+  color: #0F2243;
+  font-size: 16px;
+  p{
+    margin: 10px 0px;
+  }
+  ul{
+    margin: 0;
+    padding-left: 20px;
+    list-style-image: url( '../img/check.svg' );
+    li{
+      font-size: 13px;
+      margin: 5px 0;
+    }
+  }
+}
+
+.cardActions {
+  font-size: 18px;
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  width: 100%;
+  color: #0f2243;
+  height: 45px;
+  align-items: center;
+  // justifyContent: center;
+  border-top: 1px solid #0f2243;
+}
+
+.flatButton {
+  // display: table-cell;
+  flex-grow: 177;
+  vertical-align: middle;
+  height: 39px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  &:hover {
+    color: #C5C6C9;
+    cursor: pointer;
+  }
+}
+
+.iconButton {
+  flex-grow: 74;
+  border-left: 1px solid #C5C6C9;
+  height: 39px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

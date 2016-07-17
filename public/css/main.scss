@@ -1,0 +1,95 @@
+@import 'normalize';
+@import 'flexboxgrid';
+@import 'shortlist';
+
+@font-face {
+    font-family: bulo;
+    src: url(/font/Bulo/Bulo.woff);
+}
+
+html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  // margin-bottom: 44px;
+  font-family: 'bulo';
+}
+
+
+ul, ol {
+  // list-style: none;
+}
+
+footer {
+  position: absolute;
+  height: 44px;
+  bottom: 0;
+  padding: 0 30px;
+}
+
+label {
+  display: block;
+  line-height: 1.8;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+form button[type="submit"] {
+  margin-top: 1em;
+}
+
+.list-inline {
+  display: inline-block;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.text-success {
+  color: #29b35b;
+}
+
+.text-danger {
+  color: #b61b17;
+}
+
+.text-info {
+  color: #31708f;
+}
+
+
+
+
+#app{
+  height: 100%;
+  background: linear-gradient( #DDDEE0, #87909F);
+  height: 100%;
+  display: block;
+  overflow: auto;
+}
+
+#header {
+  background-color: #102341;
+  height: 59px;
+  border-top: 1px solid #87909F;
+  border-bottom: 1px solid #435269;
+  width: 100%;
+}
